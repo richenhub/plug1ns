@@ -1,0 +1,22 @@
+name: FirstPlugin
+main: Richen\FirstPlugin
+version: 1.0.0
+api: 3.0.0
+
+commands:
+  cmd1:
+    description: Описание команды 1
+    permission: cmd.cmd1
+    aliases: ["c1", "command1"]
+  cmd2:
+    description: Описание команды 2
+    permission: cmd.cmd2
+    aliases: ["c2", "command2"]
+
+permissions:
+  cmd.cmd1:
+    description: Описание прав команды 1
+    default: op
+  cmd.cmd2:
+    description: Описание прав команды 2
+    default: true
