@@ -33,7 +33,7 @@ class SecondPlugin extends PluginBase implements Listener {
                     $sender->sendMessage("§eРежим полёта для игрока §f$nick §eбыл $text");
                     $player->sendMessage("§eВаш режим полёта был $text");
                 } else {
-                    $sender->sendMessage("§cИгрок с ником §6$nick §cне онлайн")
+                    $sender->sendMessage("§cИгрок с ником §6$nick §cне онлайн");
                 }
             } else {
                 if ($sender instanceof Player) {

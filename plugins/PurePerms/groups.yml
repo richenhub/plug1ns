@@ -1,0 +1,93 @@
+---
+Player:
+  isDefault: true
+  inheritance: []
+  permissions:
+  - economyapi.command.money
+  - economyapi.command.pay
+  - kit.start
+  - cmd.wild
+  worlds: []
+Fly:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  permissions:
+  - pocketmine.command.tell
+  - fly.wuildwix
+  worlds: []
+Vip:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  permissions:
+  - kit.vip
+  - clear.wuildwix
+  - fh.command.heal
+  worlds: []
+Premium:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  - Вип
+  permissions:
+  - kit.premuim
+  - fh.command.food
+  - god.wuildwix
+  worlds: []
+Creative:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  - Вип
+  - Премиум
+  permissions:
+  - gm.wuilwix
+  - cc.wuildwix
+  worlds: []
+Admin:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  - Вип
+  - Премиум
+  - Креатив
+  permissions:
+  - cmd.teleport
+  - command.day
+  - command.night
+  - bansystem.kick
+  - bansystem.mute
+  - vanish.wuildwix
+  worlds: []
+Operator:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  - Вип
+  - Премиум
+  - Креатив
+  - Админ
+  permissions:
+  - bansystem.ban
+  - bansystem.unmute
+  worlds: []
+Osnovatel:
+  isDefault: false
+  inheritance: 
+  - Игрок
+  - Флай
+  - Вип
+  - Премиум
+  - Креатив
+  - Админ
+  - Оператор
+  permissions:
+  - '*'
+  worlds: []
+...

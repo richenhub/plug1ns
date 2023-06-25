@@ -1,0 +1,33 @@
+---
+enable-multiworld-support: false
+custom-no-fac-message: §8(§cБез Клана§8)
+groups:
+  Player:
+    default-chat: §c☆ §a{faction} §8> §eИгрок §8> §f{display_name} §8> §7{message}
+    default-nametag: §e• Игрок • §f{display_name}
+    worlds: []
+  Fly:
+    default-chat: §c☆ §a{faction} §8> §fФлай §8> §f{display_name} §8> §b{message}
+    default-nametag: §f• Флай • §f{display_name}
+    worlds: []
+  Vip:
+    default-chat: §c☆ §a{faction} §8> §cВип §8> §f{display_name} §8> §b{message}
+    default-nametag: §c• Вип • §f{display_name}
+    worlds: []
+  Premium:
+    default-chat: §c☆ §a{faction} §8> §fПремиум §8> §e{display_name} §8> §b{message}
+    default-nametag: §f• Премиум • §e{display_name}
+    worlds: []
+  Creative:
+    default-chat: §c☆ §a{faction} §8> §eКреатив §8> §f{display_name} §8> §e{message}
+    default-nametag: §e• Креатив • §f{display_name}
+    worlds: []
+  Admin:
+    default-chat: §c☆ §a{faction} §c× Админ × §c{display_name} §c> §c{message}
+    default-nametag: §l§cАдмин §a{display_name}
+    worlds: []
+  Osnovatel:
+    default-chat: §c☆ {faction} §8> §6Основатель §8> §f{display_name} §8> §a{message}
+    default-nametag: §l§6Основатель §a{display_name}
+    worlds: []
+...
