@@ -1,0 +1,14 @@
+name: ChatGPT
+version: 1.0.0
+api: 3.0.0
+main: Richen\ChatGPT
+
+commands:
+  chatgpt:
+    description: "ChatGPT"
+    permission: cmd.chatgpt
+    aliases: ["cg"]
+permissions:
+  cmd.chatgpt:
+    description: "ChatGPT perm"
+    default: op
