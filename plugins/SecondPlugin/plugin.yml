@@ -1,0 +1,14 @@
+name: SecondPlugin
+main: Richen\SecondPlugin
+version: 0.0.1
+api: 3.0.0
+
+commands:
+  fly:
+    description: "Режим полёта"
+    permission: cmd.fly
+
+permissions:
+  cmd.fly:
+    description: "Разрешение на полёт"
+    default: true
