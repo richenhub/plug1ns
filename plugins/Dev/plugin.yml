@@ -1,0 +1,14 @@
+name: Dev
+main: Richen\Dev
+version: 1.0.0
+api: 3.0.0
+
+commands:
+  dev:
+    description: "Функция для разработки"
+    permission: cmd.dev
+
+permissions:
+  cmd.dev:
+    description: "Права для Функции для разработки"
+    default: op
